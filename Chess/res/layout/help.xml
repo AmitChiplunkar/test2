@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <ScrollView android:id="@+id/ScrollView01"
+      xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="2010px">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#000000">
+  
+    
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="18dp"
+        android:text="HELP"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#0587d9" />
+
+    
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> The king moves exactly one square horizontally, vertically, or diagonally. A special move with the king known as castling is allowed only once per player, per game (see below)."
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+ <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> A rook moves any number of vacant squares in a horizontal or vertical direction. It also is moved when castling.
+	 "
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+  <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> A bishop moves any number of vacant squares in any diagonal direction.
+	 "
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+   <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> The queen moves any number of vacant squares in a horizontal, vertical, or diagonal direction.
+	 "
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+   
+    
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> A knight moves to the nearest square not on the same rank, file, or diagonal. (This can be thought of as moving two squares horizontally then one square vertically, or moving one square horizontally then two squares vertically—i.e. in an L pattern.)
+	  The knight is not blocked by other pieces: it jumps to the new location."
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        
+            <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="=> Pawns have the most complex rules of movement
+	+ A pawn moves straight forward one square, if that square is vacant. If it has not yet moved, a pawn also has the option of moving two squares straight forward, provided both squares are vacant. Pawns cannot move backwards.
+    + Pawns are the only pieces that capture differently from how they move. A pawn can capture an enemy piece on either of the two squares diagonally in front of the pawn (but cannot move to those squares if they are vacant).
+	 
+	 ......................................................................................................................................................................................................................................................................................
+	 .......................................................................
+	  "
+            android:textColor="#ADFF2F" 
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+               
+   
+    
+
+</LinearLayout>
+</ScrollView>
+
